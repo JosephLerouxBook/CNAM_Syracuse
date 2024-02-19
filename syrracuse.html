@@ -3,17 +3,32 @@
 <head>
   <title>Suite de Sirracuse</title>
   <link href="style/general.css" rel="stylesheet">
+  <link href="style/flex.css" rel="stylesheet">
   <meta content="text/html; charset=utf-8" />
 </head>
 <body>
 <h1 class="mainTitle">La suite de Sirracuse</h1>
-<p>Veuillez entrez un chiffre de départ duquel partir pour generer une suite de Syrracuse</p>
-<form>
-    <label>Nombre de départ :</label> <br>
-    <input type="text" id="nbr"><br>
-    <input type="submit" onclick="syrracuse(21)" value="C'est parti!">
-    <p id="resultat">test</p>
-</form>
-<script src="js/func-syrracuse.js"></script>
+<span class="flex-container">
+  <p class="flex-item1">Veuillez entrez un chiffre de départ duquel partir pour generer une suite de Syrracuse :</p>
+  <form class="flex-item2">
+      <label class="flex-item21" id="labelInput">Nombre de départ </label> <br>
+      <input type="text" id="nbr" class="flex-item22"><br>
+      <input type="submit" onclick="syrracuse()" value="C'est parti!" class="flex-item23" id="button">
+      <br><br><br>
+    </form>
+    <table class="flex-item4" id="resTable">
+      <caption>Resultat</caption>
+      <thead>
+        <tr>
+          <th>Tours</th>
+          <th>Valeurs</th>
+        </tr>
+      </thead>
+      <tbody id="targetbodyRes">
+      </tbody>
+  <p id="resultat"class="flex-item3">La suite est donc : <br><span id="suite"></span></p>
+  <script src="js/func-tableauResultat.js"></script>
+  <script src="js/func-syrracuse.js"></script>
+</span>
 </body>
 </html>

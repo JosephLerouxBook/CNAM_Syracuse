@@ -1,0 +1,32 @@
+/* Flexbox de la page syrracuse.html */
+/* Flex container */
+.flex-container {   
+    display: inline-flex;
+    flex-direction: column;
+}
+/* Flex items */
+.flex-item1{
+    order:1;
+}
+.flex-item2{
+    order:2;
+    align-self: center;
+}
+/*
+.flex-item21{
+
+}
+.flex-item22{
+
+}
+.flex-item23{
+
+}
+*/
+.flex-item3{
+    order:4;
+}
+.flex-item4{
+    order:3;
+    align-self: center;
+}

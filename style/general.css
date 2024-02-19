@@ -1,12 +1,42 @@
+/* Commun a toute les pages */
+/*-------------------------*/
 
+/* Gestion des balises classiques*/
 body{
     background-color: rgb(171, 222, 255);
-}
-
-.bolded {
-    font-weight: bold;
 }
 .mainTitle{
     font-size: 50px;
     text-align: center;
+    text-decoration: underline;
+}
+#resTable td{
+    border: 1px solid black;
+}
+#resTable th{ 
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid black;
+}
+#resTable {
+    background-color:white;
+    border-collapse: collapse;
+    text-align: center;
+}
+/* Gestion des bouttons et des entrée utilisateurs */
+#button, #nbr {
+border-radius: 13%;
+}
+#button {
+    margin-left: 38px;
+    margin-top: 2px;
+}
+#labelInput{
+    margin-left: 20px;
+}
+
+/* Exceptions */
+.bolded {
+    font-weight: bold;
 }
