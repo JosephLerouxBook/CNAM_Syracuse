@@ -3,7 +3,13 @@
 
 /* Gestion des balises classiques*/
 body{
-    background-color: rgb(171, 222, 255);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(254,255,179,0.9429972672662815) 0%, rgba(253,29,29,1) 100%);
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 .mainTitle{
     font-size: 50px;
@@ -24,6 +30,7 @@ body{
     border-collapse: collapse;
     text-align: center;
 }
+
 /* Gestion des bouttons et des entrée utilisateurs */
 #button, #nbr {
 border-radius: 13%;
