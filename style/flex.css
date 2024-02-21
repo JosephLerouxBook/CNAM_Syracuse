@@ -1,3 +1,43 @@
+/* Flexbox de la page index.html */
+/* Flex container */
+.flex-container-i {   
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+/* Flex items */
+.subTitle{
+    align-self: flex-start;
+}
+.definition{
+    width: 100%;
+}
+article.h3.subTitle {
+    background-color: aqua;
+}
+.principes, .exemples {
+    width: 50%;
+}
+
+.a-principes, .a-exemples {
+    width: auto;
+}
+
+/*Order management*/
+#sub1 {order:1}
+.definition{order:2}
+#sub2 {order:3}
+.principes{order:4}
+#sub3 {order:5}
+.exemples{order:6}
+#sub4 {order:7}
+.conclusion{order:8}
+.button1{order:10;}
+
+
+/*-------------------------------------------------------------*/
+
+
 /* Flexbox de la page syrracuse.html */
 /* Flex container */
 .flex-container {   

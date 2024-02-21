@@ -42,16 +42,52 @@ body.syracuseBody{
     text-align: center;
     margin-left: 0px;
 }
+
+.subTitle{
+    margin-left: 15px;
+}
+
+.button1{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(196,75,75);
+    border-radius: 20px;
+    color:white;
+    box-shadow:3px 3px pink ;
+    font-size: 95%;
+    border:none; 
+    min-width: 110px;
+    min-height: 20px;    
+}
+.button1:hover{
+    background-color: rgb(210,75,75);
+}
+
 /* Gestion des bouttons et des entrée utilisateurs */
 #button, #nbr {
 border-radius: 13%;
 }
 #button {
-
+    width: 95px;
+    height: 30px;
     margin-top: 2px;
+    background-color: rgb(196,75,75);
+    border-radius: 20px;
+    color:white;
+    box-shadow:2px 2px pink;
+    font-size: 100%;
+    border:none;
 }
-#labelInput{
-    
+#button:hover{
+    background-color:rgb(210,75,75);
+}
+
+#nbr{
+    border:none;
+    outline:none;
+}
+#nbr:active{
+    background-color: aliceblue;
 }
 
 /* Exceptions */
