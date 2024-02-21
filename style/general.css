@@ -65,7 +65,7 @@ body.syracuseBody{
 
 /* Gestion des bouttons et des entrée utilisateurs */
 #button, #nbr {
-border-radius: 13%;
+border-radius: 25px;
 }
 #button {
     width: 95px;

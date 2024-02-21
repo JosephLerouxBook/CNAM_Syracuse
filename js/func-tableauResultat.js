@@ -2,31 +2,40 @@
 function handleResArr(resArr){
     event.preventDefault();
     var i = 0;
+    //Cible le tableau
     const table = document.getElementById("resTable");
     const tbody = document.getElementById("targetbodyRes");
     document.getElementById("suite").innerHTML += "{";
     
     while (resArr[i]){
+        //Crée la ligne
         const row = document.createElement("tr");
-        /* DEBUG
-        console.log("EH");
-        console.log(i);
-        */
+        //Crée les cellules
         const cellValue = document.createElement("td");
         const cellIndex = document.createElement("td");
+        //Crée le text a mettre dans les cellules
         const cellVText = document.createTextNode(resArr[i]);
         const cellIText = document.createTextNode(i + 1);
+        //Rempli les cellules avec le text crée au dessus
         cellValue.appendChild(cellVText);
         cellIndex.appendChild(cellIText);
+        //Ecrit les cellules dans la ligne
         row.appendChild(cellIndex);
         row.appendChild(cellValue);
+        //Donne l'attribut "id="resToDelCell"" necessaire a HandleResArr_Delete() pour supprimer les cases/lignes
+        cellIndex.setAttribute("id", "resToDelCell");
+        cellValue.setAttribute("id", "resToDelCell");
+        row.setAttribute("id", "resToDelRow");
+        //Ajoute a la suite du tableau la ligne
         tbody.appendChild(row);
-        table.appendChild(tbody)
+        //Ajoute a la suite de la ligne les cellule
+        table.appendChild(tbody);
 
+        //Complete la ligne concernant la suite apres le tableau.
         document.getElementById("suite").innerHTML +=  resArr[i] + ", ";
         i++;
     }
-    //derniere ligne du tableau.
+    //derniere ligne du tableau. (le principe est le meme que dans la boucle.)
     const row = document.createElement("tr");
     const cellValue = document.createElement("td");
     const cellIndex = document.createElement("td");
@@ -36,10 +45,33 @@ function handleResArr(resArr){
     cellIndex.appendChild(cellIText);
     row.appendChild(cellIndex);
     row.appendChild(cellValue);
+    row.setAttribute("id", "resToDelRow");
+    cellIndex.setAttribute("id", "resToDel");
+    cellValue.setAttribute("id", "resToDel");
     tbody.appendChild(row);
     table.appendChild(tbody)
-
+    
+    //Ajout dernier elements de la ligne apres tableau
     document.getElementById("suite").innerHTML += "1}";
+    //Ajout de la récompense photo de chat API
     document.getElementById("Ev'rybody Wants to Be a Cat").innerHTML = "Vous avez bien meritez un <a href=\"cat.html\">chat.</a>";
-   console.log(resArr);
+}
+
+// fonction supprimant des elements de resultat du tableau : sert a pouvoir relancer une 
+function handleResArr_Delete(){
+    event.preventDefault();
+    document.getElementById("suite").innerHTML = "";
+    const resToDeleteRow = document.querySelectorAll('#resToDelRow');
+    const resToDeleteCell = document.querySelectorAll('#resToDelCell');
+    if (resToDeleteRow != null){
+        for (const elem of resToDeleteRow){
+            elem.remove();
+        }
+    }
+    if (resToDeleteCell != null){
+        for (const elem of resToDeleteCell){
+            elem.remove();
+        }
+    }
+
 }
