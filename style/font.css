@@ -1,0 +1,34 @@
+/* Polices */
+@font-face {
+    font-family: 'roboto-black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'roboto-thin';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'dishcek';
+    src: url('../fonts/Dishcek.otf') format('opentype');
+}
+
+/*Utilisation des polices de caractère*/
+h1, p.catTitle {
+    font-family: 'Dishcek', 'roboto-black';
+    color: white;
+}
+body, p.catsubTitle {
+    font-family: 'roboto-regular', 'roboto-medium';    
+}
+
+.flex-itemCat{
+    font-family: 'roboto-thin'; 
+}

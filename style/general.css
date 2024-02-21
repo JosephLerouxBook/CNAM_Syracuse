@@ -2,9 +2,7 @@
 /*-------------------------*/
 
 /* Gestion des balises classiques*/
-body{
-    width: 100%;
-    height: 100%;
+body{   
     background: linear-gradient(0deg, rgba(254,255,179,0.9429972672662815) 0%, rgba(253,29,29,1) 100%);
     background-size: 100%;
     background-position: 100%;
@@ -31,16 +29,29 @@ body{
     text-align: center;
 }
 
+p.catTitle{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
+p.catsubTitle{
+    font-size: 55px;
+}
+
+body.syracuseBody{
+    text-align: center;
+    margin-left: 0px;
+}
 /* Gestion des bouttons et des entrée utilisateurs */
 #button, #nbr {
 border-radius: 13%;
 }
 #button {
-    margin-left: 38px;
+
     margin-top: 2px;
 }
 #labelInput{
-    margin-left: 20px;
+    
 }
 
 /* Exceptions */

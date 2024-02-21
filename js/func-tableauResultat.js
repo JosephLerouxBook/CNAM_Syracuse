@@ -40,6 +40,6 @@ function handleResArr(resArr){
     table.appendChild(tbody)
 
     document.getElementById("suite").innerHTML += "1}";
-    document.getElementById("Ev'rybody Wants to Be a Cat").innerHTML = "<a href=\"cat.html\">Vous avez bien meritez un chat.</a>";
+    document.getElementById("Ev'rybody Wants to Be a Cat").innerHTML = "Vous avez bien meritez un <a href=\"cat.html\">chat.</a>";
    console.log(resArr);
 }
