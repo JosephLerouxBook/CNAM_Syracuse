@@ -60,15 +60,21 @@ function handleResArr(resArr){
 // fonction supprimant des elements de resultat du tableau : sert a pouvoir relancer une 
 function handleResArr_Delete(){
     event.preventDefault();
+    //vide la suite ecrite apres le tableau
     document.getElementById("suite").innerHTML = "";
+    //Recupere les lignes et cellules
     const resToDeleteRow = document.querySelectorAll('#resToDelRow');
     const resToDeleteCell = document.querySelectorAll('#resToDelCell');
+    //Check que le tableau ai bien des ligne et cellules
     if (resToDeleteRow != null){
+        //Supprime chaque element recuperere
         for (const elem of resToDeleteRow){
             elem.remove();
         }
     }
+    //Check que le tableau ai bien des ligne et cellules
     if (resToDeleteCell != null){
+        //Supprime chaque element recuperere
         for (const elem of resToDeleteCell){
             elem.remove();
         }
