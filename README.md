@@ -10,7 +10,8 @@ Le projet doit contenir :
 - [x] Un (ou plusieurs) fichier CSS organisés inteligement.
 - [ ] Un aspect graphique du site soigné.
 
-## Detail du projet 
+## Fichiers du projet
+### Arborescence
 
 Le projet est séparer en un ensemble de fichier réparti comme suit : 
 - JS 
@@ -20,15 +21,19 @@ Le projet est séparer en un ensemble de fichier réparti comme suit :
 - index.html
 - syrracuse.html
 
+### Description
+#### Dossier 
 __JS__ : Dossier contenant l'ensembe des fichiers javascript necessaire au bon fonctionnement du projet.  
-__func-syrracuse.js__ : function prenant un entier en entrée et retournant la suite de Syracuse associé  
-__Style__ : Dossier contenant l'ensemble des fichiers css necessaire a la mise en page du projet  
-__general.css__ : Contient le CSS "general", la mise en page des titre, de la couleur du fond etc...  
+__Style__ : Dossier contenant l'ensemble des fichiers css necessaire a la mise en page du projet.
+__Fonts__ : Dossier contenant l'ensemble des police de caractère utiliser pour le projet.
+
+#### fichier HTML
 __index.html__ : Page de garde décrivant un peu l'histoire derriere la suite de Syracuse, cette page mene _syrracuse.html_ 
 __syrracuse.html__ : Page lançant la suite de Syracuse du nombre entrer par l'utilisateur.
-    
-  
-   
+#### fichier CSS
+__general.css__ : Contient le CSS "general", la mise en page des titre, de la couleur du fond etc...  
+#### fichier JS
+__func-syrracuse.js__ : function prenant un entier en entrée et retournant la suite de Syracuse associé 
   
 > « les mathématiques ne sont pas encore prêtes pour de tels problèmes. » - Paul Erdős
 
