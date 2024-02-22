@@ -55,9 +55,9 @@ __DOM__ : Dossier contenant les DOM des differentes pages.
 __index.html__ : Page de garde décrivant un peu l'histoire derriere la suite de Syracuse, cette page mene _syrracuse.html_<br/>
 __syrracuse.html__ : Page lançant la suite de Syracuse du nombre entrer par l'utilisateur.<br/>
 __cat.html__ : Page lançant le script JS APIfetcher recuperant une image de chat aléatoire de l'API [https://thecatapi.com/](https://thecatapi.com/) et l'affiche.<br/>
-__DOM/cat.html__ : Page contenant le DOM de la page cat.html
-__DOM/index.html__ : Page contenant le DOM de la page index.html
-__DOM/syracuse.html__ : Page contenant le DOM de la page syracuse.html
+__DOM/cat.html__ : Page contenant le DOM de la page cat.html<br/>
+__DOM/index.html__ : Page contenant le DOM de la page index.html<br/>
+__DOM/syracuse.html__ : Page contenant le DOM de la page syracuse.html<br/>
 
 #### _fichier CSS_
 __general.css__ : Contient le CSS "general", la mise en page des titre, de la couleur du fond etc...<br/>
