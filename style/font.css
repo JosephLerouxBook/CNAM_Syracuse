@@ -53,3 +53,7 @@ body, p.catsubTitle {
 .button1, #button{
     font-family:'curetro';
 }
+
+.domList, .domListP{
+    font-family: 'robot-regular';
+}

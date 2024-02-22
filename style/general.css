@@ -35,7 +35,7 @@ p.catTitle{
     text-decoration: underline;
 }
 p.catsubTitle{
-    font-size: 55px;
+    font-size: 25px;
 }
 
 body.syracuseBody{
@@ -61,6 +61,10 @@ body.syracuseBody{
 }
 .button1:hover{
     background-color: rgb(210,75,75);
+}
+
+.domList, .domListP{
+    font-size: 35px;
 }
 
 /* Gestion des bouttons et des entrée utilisateurs */

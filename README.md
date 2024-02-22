@@ -4,7 +4,7 @@
 
 Le but est de réaliser un ensemble de page affichant une suite de Syracuse en partant d'un nombre donner par l'utilisateur. 
 Le projet doit contenir : 
-- [ ] Un DOM de chaque fichier. 
+- [x] Un DOM de chaque fichier. 
 - [x] Un (ou plusieurs) fichier JS organisés inteligement.
 - [x] Une utilisation de Flex-box permettant l'aspect Responsive.
 - [x] Un (ou plusieurs) fichier CSS organisés inteligement.
