@@ -14,6 +14,22 @@ Le projet doit contenir :
 ### Arborescence
 
 Le projet est séparer en un ensemble de fichier réparti comme suit :   
+- DOM
+  - page_cat
+    - cat.drawio
+    - cat.html
+    - cat.png
+    - cat.svg
+  - page_index
+    - index.drawio
+    - index.html
+    - index.png
+    - index.svg
+  - page_syracuse
+    - syracuse.drawio
+    - syracuse.html
+    - syracuse.png
+    - syracuse.svg
 - Fonts
 - JS 
   - func-syracuse.js
@@ -33,11 +49,15 @@ Le projet est séparer en un ensemble de fichier réparti comme suit :
 __JS__ : Dossier contenant l'ensembe des fichiers javascript necessaire au bon fonctionnement du projet.<br/>
 __Style__ : Dossier contenant l'ensemble des fichiers css necessaire a la mise en page du projet.<br/>
 __Fonts__ : Dossier contenant l'ensemble des police de caractère utiliser pour le projet.<br/>
+__DOM__ : Dossier contenant les DOM des differentes pages.
 
 #### _fichier HTML_
 __index.html__ : Page de garde décrivant un peu l'histoire derriere la suite de Syracuse, cette page mene _syrracuse.html_<br/>
 __syrracuse.html__ : Page lançant la suite de Syracuse du nombre entrer par l'utilisateur.<br/>
 __cat.html__ : Page lançant le script JS APIfetcher recuperant une image de chat aléatoire de l'API [https://thecatapi.com/](https://thecatapi.com/) et l'affiche.<br/>
+__DOM/cat.html__ : Page contenant le DOM de la page cat.html
+__DOM/index.html__ : Page contenant le DOM de la page index.html
+__DOM/syracuse.html__ : Page contenant le DOM de la page syracuse.html
 
 #### _fichier CSS_
 __general.css__ : Contient le CSS "general", la mise en page des titre, de la couleur du fond etc...<br/>
