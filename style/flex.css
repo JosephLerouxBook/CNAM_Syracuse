@@ -1,10 +1,14 @@
+/*********************************/
 /* Flexbox de la page index.html */
+/*********************************/
+
 /* Flex container */
 .flex-container-i {   
     display: flex;
     flex-direction: row;    
     flex-wrap: wrap;
 }
+
 /* Flex items */
 .subTitle{
     align-self: flex-start;
@@ -16,11 +20,13 @@ article.h3.subTitle {
     background-color: aqua;
 }
 .principes, .exemples {
-    width: 50%;
+    width: 85%;
 }
-
 .a-principes, .a-exemples {
-    width: auto;
+    flex-wrap: nowrap;
+}
+.panelwraper{
+    display: flex;
 }
 
 /*Order management*/
@@ -35,15 +41,16 @@ article.h3.subTitle {
 .button1{order:10;}
 
 
-/*-------------------------------------------------------------*/
-
-
+/*************************************/
 /* Flexbox de la page syrracuse.html */
+/*************************************/
+
 /* Flex container */
 .flex-container {   
     display: inline-flex;
     flex-direction: column;
 }
+
 /* Flex items */
 .flex-item1{
     order:1;

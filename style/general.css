@@ -2,7 +2,7 @@
 /* Gestion des balises classiques*/
 /*********************************/
 body{   
-    background: linear-gradient(0deg, rgba(254,255,179,0.9429972672662815) 0%, rgba(253,29,29,1) 100%);
+    background: linear-gradient(0deg, rgba(247, 205, 67, 0.943) 0%, rgba(253, 87, 36, 0.849) 100%);
     background-size: 100%;
     background-position: 100%;
     background-repeat: no-repeat;
@@ -12,6 +12,67 @@ body{
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
+}
+
+
+/**************/
+/* index.html */
+/**************/
+article{
+    margin-top: 12px;
+    padding-left: 15px;
+    background-color: rgba(230, 227, 74, 0.568);
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(228, 152, 10, 0.692);
+    overflow:hidden;
+}
+.subTitle{
+    margin-left: 15px;
+}
+.button1{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(196,75,75);
+    border-radius: 20px;
+    color:white;
+    box-shadow:3px 3px pink ;
+    font-size: 95%;
+    border:none; 
+    min-width: 110px;
+    min-height: 20px;    
+}
+.button1:hover{
+    background-color: rgb(209, 93, 93);
+}
+.buttonwrapper{
+    width: 100%;
+    padding-left: 45%;
+    margin-top: 10px;
+}
+.a-definition{
+    margin-left: 17%;
+    margin-right: 10%;
+}
+.a-conclusion{
+    margin-left: 13%;
+    margin-right: 10%;
+}
+.a-exemples {
+    margin-left: 2%;
+}
+.panelwraper{
+
+    width: 100%;
+    padding-left: 21%;
+    padding-right: 23%;
+}
+
+/*****************/
+/* syracuse.html */
+/*****************/
+body.syracuseBody{
+    text-align: center;
+    margin-left: 0px;
 }
 #resTable td{
     border: 1px solid black;
@@ -28,39 +89,7 @@ body{
     text-align: center;
 }
 
-
-body.syracuseBody{
-    text-align: center;
-    margin-left: 0px;
-}
-
-.subTitle{
-    margin-left: 15px;
-}
-
-.button1{
-    width: 120px;
-    height: 35px;
-    background-color: rgb(196,75,75);
-    border-radius: 20px;
-    color:white;
-    box-shadow:3px 3px pink ;
-    font-size: 95%;
-    border:none; 
-    min-width: 110px;
-    min-height: 20px;    
-}
-.button1:hover{
-    background-color: rgb(210,75,75);
-}
-
-.domList, .domListP{
-    font-size: 25px;
-}
-
-/***************************************************/
-/* Gestion des bouttons et des entrée utilisateurs */
-/***************************************************/
+/* Bouttons et des entrée utilisateurs */
 #button, #nbr {
 border-radius: 25px;
 }
@@ -76,9 +105,8 @@ border-radius: 25px;
     border:none;
 }
 #button:hover{
-    background-color:rgb(210,75,75);
+    background-color:rgb(209, 93, 93);
 }
-
 #nbr{
     border:none;
     outline:none;
@@ -88,17 +116,16 @@ border-radius: 25px;
 }
 
 
-/*******/
-/* cat */
-/*******/
 
+/************/
+/* cat.html */
+/************/
 .catpicture {
     width:50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 p.catTitle{
     font-size: 80px;
     text-align: center;
@@ -107,6 +134,9 @@ p.catTitle{
 p.catsubTitle{
     font-size: 15px;
     text-align: center;
+}
+.domList, .domListP{
+    font-size: 25px;
 }
 
 
