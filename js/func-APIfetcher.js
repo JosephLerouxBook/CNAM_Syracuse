@@ -15,7 +15,7 @@ fetch("https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format
       console.log(result);
       var jsonObj = JSON.parse(result);
       console.log(jsonObj[0].url);
-      document.getElementById('catpic').innerHTML = "<img src=\"" + jsonObj[0].url + "\">";
+      document.getElementById('catpic').innerHTML = "<img src=\"" + jsonObj[0].url + "\" class=\"catpicture\">";
       //document.writeln("<img src=\"" + jsonObj[0].url + "\">")
     })
   .catch(error => console.log('error', error));        

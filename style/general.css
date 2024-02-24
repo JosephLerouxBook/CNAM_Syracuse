@@ -1,7 +1,6 @@
-/* Commun a toute les pages */
-/*-------------------------*/
-
+/*********************************/
 /* Gestion des balises classiques*/
+/*********************************/
 body{   
     background: linear-gradient(0deg, rgba(254,255,179,0.9429972672662815) 0%, rgba(253,29,29,1) 100%);
     background-size: 100%;
@@ -29,14 +28,6 @@ body{
     text-align: center;
 }
 
-p.catTitle{
-    font-size: 80px;
-    text-align: center;
-    text-decoration: underline;
-}
-p.catsubTitle{
-    font-size: 25px;
-}
 
 body.syracuseBody{
     text-align: center;
@@ -64,10 +55,12 @@ body.syracuseBody{
 }
 
 .domList, .domListP{
-    font-size: 35px;
+    font-size: 25px;
 }
 
+/***************************************************/
 /* Gestion des bouttons et des entrée utilisateurs */
+/***************************************************/
 #button, #nbr {
 border-radius: 25px;
 }
@@ -94,7 +87,32 @@ border-radius: 25px;
     background-color: aliceblue;
 }
 
+
+/*******/
+/* cat */
+/*******/
+
+.catpicture {
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.catTitle{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
+p.catsubTitle{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/**************/
 /* Exceptions */
+/**************/
 .bolded {
     font-weight: bold;
 }

@@ -43,6 +43,7 @@ Le projet est séparer en un ensemble de fichier réparti comme suit :
 - index.html
 - syrracuse.html
 - cat.html
+- sujet.pdf
 - README.md <== Vous etes ici. 
 
 ### __Description__
