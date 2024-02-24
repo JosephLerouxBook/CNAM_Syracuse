@@ -35,6 +35,7 @@ Le projet est séparer en un ensemble de fichier réparti comme suit :
   - func-syracuse.js
   - func-tableauResultat.js
   - func-APIfetcher.js
+  - func-valueChecker.js
 - Style
   - general.css
   - font.css
@@ -67,7 +68,8 @@ __font.css__ : Contient les FontFamily lié au dossier Font et modifiant les dif
 #### _fichier JS_
 __func-syrracuse.js__ : Function prenant un entier en entrée et retournant la suite de Syracuse associé<br/>
 __func-tableauResultat.js__ : Functions permettant la création et destruction du tableau de résultat. Création prend 1 tableau en parametre et ecrit directement les valeurs du tableau dans une table HTML sur la page. Destruction cible le tableau de resultat et supprime les elements ajouter par la création.<br/> 
-__func-APIfetcher.js__ : Script recuperant un .json depuis https://thecatapi.com/ contenant les informations concernant la photo generer. Notamment son URL, permettant ainsi l'affichage d'un chat aléatoire sur la page cat.html<br/>  
+__func-APIfetcher.js__ : Script recuperant un .json depuis https://thecatapi.com/ contenant les informations concernant la photo generer. Notamment son URL, permettant ainsi l'affichage d'un chat aléatoire sur la page cat.html<br/>
+__func-valueChecker.js__ : Ensemble des fonction verifiant ce que l'utilisateur a pu tapper.<br/>
   
    
     
