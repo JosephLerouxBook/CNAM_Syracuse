@@ -8,7 +8,7 @@ Le projet doit contenir :
 - [x] Un (ou plusieurs) fichier JS organisés inteligement.
 - [x] Une utilisation de Flex-box permettant l'aspect Responsive.
 - [x] Un (ou plusieurs) fichier CSS organisés inteligement.
-- [ ] Un aspect graphique du site soigné.
+- [x] Un aspect graphique du site soigné.
 
 ## Fichiers du projet
 ### Arborescence
