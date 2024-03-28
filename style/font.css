@@ -36,7 +36,7 @@
 /*Utilisation des polices de caractère*/
 h1, p.catTitle {
     font-family: 'Dishcek', 'roboto-black';
-    color: white;
+    color:rgb(4, 4, 46);
 }
 body, p.catsubTitle {
     font-family: 'roboto-regular', 'roboto-medium';    

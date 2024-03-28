@@ -8,32 +8,34 @@
   <meta content="text/html; charset=utf-8" />
 </head>
 <body class="syracuseBody">
-<h1 class="mainTitle">La suite de Syracuse</h1>
-<span class="flex-container">
-  <p class="flex-item1">Veuillez entrez un chiffre de départ duquel partir pour generer une suite de Syracuse :</p>
-  <form class="flex-item2">
-      <label class="flex-item21" id="labelInput">Nombre de départ </label> <br>
-      <input type="text" id="nbr" class="flex-item22"><br>
-      <input type="submit" onclick="syracuse()" value="C'est parti" class="flex-item23" id="button">
-      <br><br><br>
-    </form>
+<div class="container">
+  <h1 class="mainTitle">La suite de Syracuse</h1>
+  <span class="flex-container">
+    <p class="flex-item1">Veuillez entrez un chiffre de départ duquel partir pour generer une suite de Syracuse :</p>
+    <form class="flex-item2">
+        <label class="flex-item21" id="labelInput">Nombre de départ </label> <br>
+        <input type="text" id="nbr" class="flex-item22"><br>
+        <input type="submit" onclick="syracuse()" value="C'est parti" class="flex-item23" id="button">
+        <br><br><br>
+      </form>
 
-    <table class="flex-item4" id="resTable">
-      <caption>Resultat</caption>
-      <thead>
-        <tr>
-          <th>Tours</th>
-          <th>Valeurs</th>
-        </tr>
-      </thead>
-      <tbody id="targetbodyRes">
-      </tbody>
-    </table>
-  <p id="resultat"class="flex-item3">La suite de Syracuse est donc : <br><span id="suite"></span></p>
-  <p id="Ev'rybody Wants to Be a Cat" class="flex-itemCat"></p>
-  <script src="js/func-valueChecker.js"></script>
-  <script src="js/func-tableauResultat.js"></script>
-  <script src="js/func-syracuse.js"></script>
-</span>
+      <table class="flex-item4" id="resTable">
+        <caption>Resultat</caption>
+        <thead>
+          <tr>
+            <th>Tours</th>
+            <th>Valeurs</th>
+          </tr>
+        </thead>
+        <tbody id="targetbodyRes">
+        </tbody>
+      </table>
+    <p id="resultat"class="flex-item3">La suite de Syracuse est donc : <br><span id="suite"></span></p>
+    <p id="Ev'rybody Wants to Be a Cat" class="flex-itemCat"></p>
+  </span>
+</div>
+<script src="js/func-valueChecker.js"></script>
+<script src="js/func-tableauResultat.js"></script>
+<script src="js/func-syracuse.js"></script>
 </body>
 </html>
