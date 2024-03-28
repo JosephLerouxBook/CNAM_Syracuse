@@ -24,7 +24,7 @@ article{
     background-color: rgba(230, 227, 74, 0.568);
     border-radius: 20px;
     box-shadow: 3px 3px rgba(228, 152, 10, 0.692);
-    overflow:hidden;
+    
 }
 .subTitle{
     margin-left: 15px;
@@ -61,10 +61,17 @@ article{
     margin-left: 2%;
 }
 .panelwraper{
-
     width: 100%;
     padding-left: 21%;
     padding-right: 23%;
+}
+s
+
+#panelPrincipes{
+    margin :0 35px 0 0;
+}
+.a-principes{
+    padding : 15px 15px 15px 15px;
 }
 
 /*****************/
